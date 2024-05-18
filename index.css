@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.sideNavBar {
+    height: 100vh;
+    width: 22%;
+    position: fixed;
+    background-color: black;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 12px;
+}
+
+.topHalfBar {
+    margin: 32px;
+    padding: 21px;
+    height: 30vh;
+    background-color: rgb(21, 20, 20);
+    margin: 4px;
+    border: 2px solid  rgb(21, 20, 20);
+    border-radius: 5px;
+}
+img{
+    width: 107px;
+    margin: 2px 10px;
+}
+ul li{
+    padding: 12px 10px;
+   font-size: larger;
+  list-style: none;
+}
+li a{
+    color:grey;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+    box-sizing: border-box;
+}
+li a span:nth-of-type(1){
+margin-bottom: -3px;
+font-size: 30px;
+}
+li a span:nth-of-type(2):hover{
+border-bottom: 1px solid grey ;
+font-size: 17px;
+}
+.bottom-half-bar {
+    background-color: rgb(21, 20, 20);
+    margin: 4px;
+    border: 2px solid  rgb(21, 20, 20);
+    border-radius: 5px;
+    height: 50vh;
+    margin-top: 10px;
+}
+
+.container {
+    margin-left: 23%;   
+    /* box-sizing: border-box; */
+    background-color: aqua;
+    height: 100vh;
+}
+.container .top-nav-bar{
+    background-color: red;
+    height: 12%;
+    
+    
+}
+
+
